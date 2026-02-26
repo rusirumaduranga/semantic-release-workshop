@@ -12,7 +12,7 @@ router.get('/', (req, res) => {
   res.json({
     name: 'semantic-release-workshop-test-test',
     version: process.env.npm_package_version || '1.0.0',
-    description: 'A Node.js + Express app showcasing semantic-release, conventional commits, and husky',
+    description: 'A Node.js + Express app showcasing semantic-release, conventional commits, and husky, conventional',
     endpoints: {
       'GET /': 'API information',
       'GET /health': 'Health check',
